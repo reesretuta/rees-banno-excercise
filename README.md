@@ -1,6 +1,7 @@
 ### Setup
 npm install
-npm start
 
+### Run the app
+npm start
 ### Testing
 npm test

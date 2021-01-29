@@ -20,7 +20,6 @@ const tweetMock = require('./__mocks__/tweetMock');
 // stream.on('tweet', (tweet)=> {
 //     queue.enqueue(tweet);
 // });
-
 q.enqueue(tweetMock);
 q.enqueue(tweetMock);
 

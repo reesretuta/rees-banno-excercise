@@ -66,4 +66,4 @@ const process = (arr, stats) => {
 
 module.exports = {
     process
-};  
+};

@@ -22,7 +22,7 @@ const config = require('./configs');
 //     queue.enqueue(tweet);
 // });
 
-//manuall add tweets
+//manually add tweets
 q.enqueue(tweetMock);
 q.enqueue(tweetMock);
 q.enqueue(tweetMock);

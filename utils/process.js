@@ -59,8 +59,8 @@ const process = (arr, stats) => {
 
         arr = [];
         resolve(stats);
-        //nothing asynchronize above but if this project was expanded, demonstrating the use of promises
-        //resolve and reject would called in a callback
+        //nothing asynchronize above but if project was expanded, demonstrating the use of promises
+        //resolve and reject can be called in a callback
     });
 }
 

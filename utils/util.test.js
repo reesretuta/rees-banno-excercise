@@ -22,13 +22,13 @@ describe('util', () => {
         let map = {
             'hash1': 1,
             'hash2': 2,
+            'hash7': 7,
             'hash3': 3,
             'hash4': 4,
             'hash5': 5,
-            'hash6': 6,
-            'hash7': 7,
+            'hash6': 6
         }
-        expect(util.getTopRank(map)).toEqual('hash1, hash2, hash3, hash4, hash5');
+        expect(util.getTopRank(map)).toEqual('hash7, hash6, hash5, hash4, hash3');
     });
 
     it('should calculate percentage', () => {

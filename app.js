@@ -2,6 +2,7 @@ const Queue = require('queue-fifo');
 const q = new Queue();
 const { process } = require('./utils/process');
 const tweetMock = require('./__mocks__/tweetMock');
+const config = require('./configs');
 
 // below commented out as did not have access to a twitter dev account 
 // due to twitter approval process taking longer than 14+ days
@@ -58,4 +59,4 @@ setInterval(() => {
     }).catch((err) => {
         console.log(`Error processing tweets`, err);
     });
-}, 2000);
+}, config.pollFrequency);

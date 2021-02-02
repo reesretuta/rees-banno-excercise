@@ -18,9 +18,12 @@ module.exports = {
     getTopRank: (map) => {
         let sortable = [];
         for (let key in map) {
-            sortable.push([key, map[key]]);
+            sortable = [...sortable, {
+                hash: key,
+                count: map[key]
+            }];
         }
-        return sortable.map(s => s[0]).slice(0,5).sort((a,b) => {a - b} ).join(', ');
+        return sortable.sort((a,b) => b.count - a.count).map(h => h.hash).slice(0,5).join(', ');
     },
     getPercentage: (part, total) => {
         return (part/total*100).toFixed(0) + '%';

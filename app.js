@@ -21,6 +21,8 @@ const config = require('./configs');
 // stream.on('tweet', (tweet)=> {
 //     queue.enqueue(tweet);
 // });
+
+//manuall add tweets
 q.enqueue(tweetMock);
 q.enqueue(tweetMock);
 

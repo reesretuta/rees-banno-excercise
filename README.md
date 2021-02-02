@@ -5,3 +5,6 @@ npm install
 npm start
 ### Testing
 npm test
+
+### Notes
+recommended Node version 12 or higher

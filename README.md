@@ -1,10 +1,11 @@
 ### Setup
-npm install
+`npm install`
 
 ### Run the app
-npm start
+`npm start`
+
 ### Testing
-npm test
+`npm test`
 
 ### Notes
 recommended Node version 12 or higher

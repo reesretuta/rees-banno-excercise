@@ -25,6 +25,12 @@ const config = require('./configs');
 //manuall add tweets
 q.enqueue(tweetMock);
 q.enqueue(tweetMock);
+q.enqueue(tweetMock);
+q.enqueue(tweetMock);
+q.enqueue(tweetMock);
+q.enqueue(tweetMock);
+q.enqueue(tweetMock);
+q.enqueue(tweetMock);
 
 let stats = {
     startTime: new Date(),
